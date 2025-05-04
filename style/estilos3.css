@@ -1,0 +1,335 @@
+.header{
+    background-image: url('/img/Visitfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 460px;   
+}
+.titulo-EnImg h3{
+    color: rgb(109, 31, 55); 
+    font-weight: 800;
+     font-size: 45px;
+}
+
+.titulo-EnImg p{
+    color:rgb(109, 31, 55);
+    font-size:20px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-image: url('/img/imagen-deFondo.jpg');
+    
+}
+.container-fluid-1{
+    background-color: rgb(244, 243, 239);
+    margin-top: 100px;
+    height: 520px;
+    width:100%;
+    margin-bottom: 90px;
+}
+
+.container-Store h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    margin-top: 90px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.container-Store p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+}
+.container-Store a{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    background-color: rgb(109, 31, 55);
+    border-color: rgb(109, 31, 55);
+    border-radius: 40px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+  flex-direction: column;
+   width: 300px;
+   margin-left: 250px;
+}
+.container-Store a:hover{
+    background-color: rgb(181, 17, 68);
+    border-color: rgb(181, 17, 68);
+}
+
+.container-fluid-cards h3{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.container-fluid .conteiner2 .card{
+    background-color: rgb(244, 243, 239); ;
+}
+
+
+.container-Store2 h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    margin-top: 140px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.container-Store2 p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+}
+.container-Store2 a{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    background-color: rgb(109, 31, 55);
+    border-color: rgb(109, 31, 55);
+    border-radius: 40px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+  flex-direction: column;
+   width: 220px;
+   margin-left: 280px;
+}
+.container-Store2 a:hover{
+    background-color: rgb(181, 17, 68);
+    border-color: rgb(181, 17, 68);
+}
+
+.container-fluid-5{
+    margin-left: 340px;
+}
+
+.container-fluid-5 .card{
+  background-color: rgb(244, 243, 239); ;
+}
+
+.container-fluid-footer{
+    background-color: rgb(181 17 68);
+    display: flex;
+    gap: 3px;  
+    padding-left: 120px;  
+    height: 300px;
+    
+}
+.container-fluid-footer h3{
+    color: white;
+    margin-top: 70px;
+    font-size: 19px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    margin-bottom: 40px;
+    width: 180px;
+    margin-right: 70px;
+    font-weight: 600;
+    
+    
+}
+.container-fluid-footer p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    margin-right: 0px;
+    font-size: 18px;
+    
+}
+
+.container-fluid-footer2{
+    background-color: rgb(109, 31, 55);
+    height: 350px;
+    padding-left: 120px;
+    
+}
+
+.container-fluid-footer2 h3{
+    color:white;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    margin-top:30px;
+    padding: 0 0 0 0; /* top right bottom left */
+}
+
+.container-fluid-footer2 h2{
+    color:white;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-top:40px;
+    padding: 0 0 0 0; /* top right bottom left */
+}
+
+.container-fluid-footer2 p{
+    color:white;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top:40px;
+    line-height: 24px; 
+    
+}
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .header {
+      height: 350px;
+    }
+  
+    .titulo-EnImg h3 {
+      font-size: 36px;
+    }
+  
+    .titulo-EnImg p {
+      font-size: 18px;
+    }
+  
+    .container-Store a,
+    .container-Store2 a {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .container-fluid-footer,
+    .container-fluid-footer2 {
+      padding-left: 40px;
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .container-fluid-footer h3 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .container-fluid-5 {
+      margin-left: auto;
+    }
+  
+    .container-fluid-1 {
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
+  /* Móviles (max-width: 768px) */
+  @media (max-width: 768px) {
+    .header {
+      min-height: 460px;
+    }
+  
+    .titulo-EnImg{
+      margin-left: -5px;
+      margin-top: 80px;
+      }
+      .titulo-EnImg h3 {
+        font-size: 0.75rem;
+        text-align: center;
+      }
+    
+      .titulo-EnImg p {
+        font-size: 16px;
+        text-align: center;
+        margin-right: 60px;
+        margin-left: 60px;
+      }
+  
+    .container-Store h3,
+    .container-Store2 h3 {
+      font-size: 22px;
+      margin-top: 60px;
+      margin-left: 10px;
+    }
+  
+    .container-Store p,
+    .container-Store2 p {
+      font-size: 16px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .container-Store a,
+    .container-Store2 a {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+    }
+  
+    .container-fluid-1 {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      height: auto;
+      padding: 20px;
+    }
+    .container-fluid-1 img{
+      margin-top: 30px;
+    }
+    
+    
+  
+    .container-fluid-cards h3 {
+      font-size: 26px;
+      text-align: center;
+     
+    }
+    .container-fluid-2{
+      margin-top: 10px ;
+      margin-bottom: 80px;
+    }
+    .container-fluid-5{
+      padding-left: 80px;
+    }
+  
+    .container-fluid-5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .container-fluid-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+    }
+
+    .container-fluid-footer2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+    }
+
+    .container-fluid-footer2 i {
+        font-size: 20px;
+    }
+  }

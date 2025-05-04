@@ -1,0 +1,346 @@
+.header{
+    background-image: url('/img/fondoImg1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 460px;
+    
+}
+
+.titulo-EnImg h3{
+    color: rgb(109, 31, 55); 
+    font-weight: 800;
+     font-size: 45px;
+}
+
+.titulo-EnImg p{
+    color:rgb(109, 31, 55);
+    font-size:20px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    
+    
+}
+
+body{
+    background-image: url('/img/imagen-deFondo.jpg');
+    
+}
+.container-fluid-1 {
+  background-color: white;
+  margin: 100px auto 120px auto;
+  padding: 0 15px;
+  max-width: 1150px;
+  width: 100%;
+  height: auto;
+}
+
+.conteiner-1 h2{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    text-align: left;
+    font-size: 38px;
+    padding-left:65px;
+    
+    
+}
+.conteiner-1 p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: black;
+    font-size: 19px;
+    line-height: 24px;
+    margin-left: 45px;
+    margin-top: 35px;
+   text-align: left;
+   padding-left:70px;
+   margin-bottom: 100px;
+}
+.conteiner-2 h2{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    text-align: left;
+    font-size: 38px;
+    padding-left:65px;
+    margin-bottom: 130px;
+    
+    
+}
+.conteiner-3 h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 50px;
+    
+    
+}
+.conteiner-3 h5{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-weight: 800;
+    font-size:  19px;
+    margin-left: 50px;
+}
+.conteiner-3 p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+
+}
+.conteiner-4 h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+.conteiner-4 h5{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-weight: 800;
+    font-size:  19px;
+}
+.conteiner-4 p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+
+}
+.conteiner-img {
+  width: 100%;
+  text-align: center;
+}
+
+.conteiner-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav {
+    background-color: rgb(181 17 68);
+    height: 80px;
+}
+.nav .nav-link{
+    color: white;
+    padding-top: 0px;
+    
+}
+ 
+.nav-link{
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-style: normal;
+  margin-left: 18px;
+  margin-top: 30px
+  
+}
+.navbar-nav{
+  margin-right: 120px;
+}
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container-fluid-1 {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+    }
+  
+    .conteiner-1 h2,
+    .conteiner-1 p,
+    .conteiner-2 h2,
+    .conteiner-3 h4,
+    .conteiner-3 h5,
+    .conteiner-3 p,
+    .conteiner-4 h4,
+    .conteiner-4 h5,
+    .conteiner-4 p {
+      margin-left: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .header {
+      height: 350px;
+    }
+  
+    .titulo-EnImg h3 {
+      font-size: 36px;
+    }
+  
+    .titulo-EnImg p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Móviles (max-width: 768px) */
+  @media (max-width: 768px) {
+    .container-fluid-1 {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      height: auto;
+    }
+    .header{    
+     
+      width: 100%;
+      min-height: 480px;
+      padding-bottom: 200px;
+      object-position: 100% center; 
+      
+      
+  }
+  .logoCosta{
+    padding-left: -20px;
+  }
+    .titulo-EnImg{
+    margin-left: -5px;
+    margin-top: 30px;
+    }
+    .titulo-EnImg h3 {
+      font-size: 0.75rem;
+      text-align: center;
+    }
+  
+    .titulo-EnImg p {
+      font-size: 16px;
+      text-align: center;
+      margin-right: 60px;
+      margin-left: 60px;
+    }
+   
+    .conteiner-1 h2,
+    .conteiner-1 p,
+    .conteiner-2 h2,
+    .conteiner-3 h4,
+    .conteiner-3 h5,
+    .conteiner-3 p,
+    .conteiner-4 h4,
+    .conteiner-4 h5,
+    .conteiner-4 p {
+      margin-left: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 90%;
+    }
+  
+    .conteiner-1 h2,
+    .conteiner-2 h2 {
+      font-size: 28px;
+    }
+  
+    .conteiner-3 h4,
+    .conteiner-4 h4 {
+      font-size: 24px;
+    }
+  
+    .conteiner-3 h5,
+    .conteiner-4 h5 {
+      font-size: 16px;
+    }
+  
+    .conteiner-3 p,
+    .conteiner-4 p {
+      font-size: 16px;
+    }
+  
+    .header {
+      height: 280px;
+      background-position: center center;
+    }
+  
+    .header .titulo-EnImg h3 {
+      font-size: 8px;
+      text-align: center;
+      margin-top: 80px;
+    
+    }
+  
+    .titulo-EnImg p {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .nav {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .nav .nav-link {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+   
+  
+       
+      .conteiner-1 p{
+        margin-bottom: -90px;
+        padding-left: 20px;
+      }
+      .conteiner-2 h2{
+        margin-bottom: 30px;
+      }
+      .conteiner-3{
+        margin-top: 30px;
+      }
+      .conteiner-3 p{
+        margin-bottom: 50px;
+      }
+      .conteiner-4 {
+        margin-top: 40px;
+        margin-bottom: 50px;
+      }
+    
+  }
+  @media (max-width: 480px) {
+    .conteiner-1 p,
+    .conteiner-3 p,
+    .conteiner-4 p {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+    }
+
+    .conteiner-3 h4,
+    .conteiner-4 h4,
+    .conteiner-3 h5,
+    .conteiner-4 h5 {
+        margin-left: 10px;
+    }
+}
+
+  

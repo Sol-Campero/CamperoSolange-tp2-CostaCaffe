@@ -1,0 +1,188 @@
+.header{
+    background-image: url('/img/Shop_Costa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 460px;
+    
+}
+.titulo-EnImg h3{
+    color: rgb(109, 31, 55); 
+    font-weight: 800;
+     font-size: 45px;
+}
+
+.titulo-EnImg p{
+    color:rgb(109, 31, 55);
+    font-size:20px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    
+}
+
+.container-fluid-1{
+    background-color: rgb(244, 243, 239);
+    margin-top: 100px;
+    height: 520px;
+    width:100%;
+    margin-bottom: 90px;
+}
+.container-Store h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.container-Store p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.container-Store a{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: rgb(109, 31, 55);
+    font-size: 18px;
+    font-weight: 700;
+   width: 300px;
+   margin-left: 350px;
+   text-decoration: underline;
+   text-decoration-color: rgb(109, 31, 55);
+   text-decoration-thickness: 3px;
+   text-underline-offset: 4px;
+}
+.container-Store a:hover{
+    color: rgb(181, 17, 68);
+    text-decoration-color:rgb(181, 17, 68);
+}
+
+.container-fluid-2 .card{
+    background-color: rgb(244, 243, 239); 
+}
+
+
+.container-Store2 h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(109, 31, 55);
+    margin-top: 180px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+}
+.container-Store2 p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+}
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .header {
+      height: 350px;
+    }
+  
+    .titulo-EnImg h3 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .titulo-EnImg p {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .container-Store h3,
+    .container-Store2 h3 {
+      font-size: 26px;
+      margin-left: 20px;
+      margin-top: 100px;
+    }
+  
+    .container-Store p,
+    .container-Store2 p {
+      font-size: 17px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .container-Store a {
+      margin-left: auto;
+      margin-right: auto;
+      width: 250px;
+      font-size: 17px;
+    }
+  
+    .container-fluid-1 {
+      height: auto;
+      padding: 20px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* Móviles (max-width: 768px) */
+  @media (max-width: 768px) {
+    .header {
+      min-height: 460px;
+    }
+    .titulo-EnImg{
+      margin-top: 70px;
+    }
+  
+    .titulo-EnImg h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .titulo-EnImg p {
+      padding-right: 130px;
+    }
+  
+    .container-Store h3,
+    .container-Store2 h3 {
+      font-size: 22px;
+      margin-top: 80px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .container-Store p,
+    .container-Store2 p {
+      font-size: 16px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .container-Store a {
+      width: 80%;
+      margin-left: 220px;
+      margin-right: auto;
+      font-size: 16px;
+    }
+  
+    .container-fluid-1 {
+      padding: 20px;
+      height: auto;
+    }
+  }
+  
